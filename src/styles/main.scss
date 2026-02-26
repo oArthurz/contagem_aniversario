@@ -1,0 +1,40 @@
+@use 'components/infos_bar';
+@use 'hero';
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+body
+{
+    background-color: oklch(93.6% 0.032 17.717);
+}
+
+.container
+{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img
+    {
+        height: 250px;
+        margin: 0;
+    }
+
+    @media (max-width: 640px)
+    {
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px)
+    {
+        max-width: 90%;
+    }
+}

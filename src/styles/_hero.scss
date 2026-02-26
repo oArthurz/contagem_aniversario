@@ -1,0 +1,15 @@
+.hero
+{
+   padding-top: 64px;
+   padding-bottom: 180px;
+   width: 100%;
+   background-image: url(../images/img_banner3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;   
+
+   &__text
+   {
+      margin-top: 80px;
+      margin-bottom: 40px;
+   }
+}
