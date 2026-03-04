@@ -1,15 +1,53 @@
 .hero
 {
-   padding-top: 64px;
-   padding-bottom: 180px;
+   padding-top: 270px;
    width: 100%;
    background-image: url(../images/img_banner3.jpg);
    background-repeat: no-repeat;
-   background-size: cover;   
+   background-size: cover;
+   position: relative;
+
+   .container
+   {
+      position: relative;
+
+      p,h1
+      {
+         text-align: center;
+      }
+
+      img
+      {
+         margin: 0 auto;
+         height: 150px;
+         display: block;
+      }
+   }
 
    &__text
    {
-      margin-top: 80px;
-      margin-bottom: 40px;
+      margin-top: 64px;
+      margin-bottom: 64px;
+      line-height: 56px;
+      font-weight: 800;
+      font-size: 25px;
+      text-align: center;
    }
+
+   @media (max-width: 640px)
+   {
+      padding: 40px;
+
+      &__logo
+      {
+         height: 40px;
+      }
+
+      &__text
+      {
+         font-size: 22px;
+         line-height: 24px;
+         margin: 24px 0;
+      }
+    }
 }

@@ -1,5 +1,7 @@
-@use 'components/infos_bar';
 @use 'hero';
+@use 'components/infos_bar';
+@use 'event';
+@use 'variaveis';
 
 *
 {
@@ -20,7 +22,6 @@ body
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-    text-align: center;
 
     img
     {

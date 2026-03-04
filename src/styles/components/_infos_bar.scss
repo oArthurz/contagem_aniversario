@@ -1,23 +1,29 @@
 .infos-bar
 {
     padding: 16px 24px;
-
-
+    
     &__infos
     {
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 18px;
         display: flex;
-        gap: 40px;
         list-style: none;
-    }
-
-    &__item
-    {
-        font-size: 14px;
-        b
+        gap: 40px;
+        
+        &__item
         {
+            margin-left: 25px;
             color: #000;
-            font-size: 18px;
-            display: block;
+            font-size: 14px;
+            text-align: left;
+    
+            b
+            {
+                font-size: 18px;
+                display: block;
+            }
         }
     }
+
 }

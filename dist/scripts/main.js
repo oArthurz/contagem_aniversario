@@ -714,6 +714,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"3cYfC":[function(require,module,exports,__globalThis) {
+AOS.init();
 document.addEventListener("DOMContentLoaded", function() {
     setInterval(function() {
         const evento = new Date("Marc, 18, 2026");

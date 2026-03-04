@@ -1,3 +1,4 @@
+AOS.init();
 document.addEventListener("DOMContentLoaded", function() {
     setInterval(function() {
         const evento = new Date("Marc, 18, 2026");
