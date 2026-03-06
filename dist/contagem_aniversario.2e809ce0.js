@@ -1,0 +1,2 @@
+AOS.init(),document.addEventListener("DOMContentLoaded",function(){setInterval(function(){let e=new Date("Marc, 18, 2026").getTime()-new Date().getTime(),o=Math.floor(e/864e5),n=Math.floor(e%864e5/36e5),t=Math.floor(e%36e5/6e4),l=Math.floor(e%6e4/1e3);console.log("Dias:",o),console.log("Horas:",n),console.log("Minutos:",t),console.log("Segundos:",l),document.getElementById("exibeNaTela").innerHTML=`${o}d ${n}h ${t}m ${l}s`})});
+//# sourceMappingURL=contagem_aniversario.2e809ce0.js.map
