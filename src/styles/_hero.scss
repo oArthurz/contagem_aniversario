@@ -37,23 +37,28 @@
    @media (max-width: 640px)
    {
       padding: 0;
-      background-image: url(../images/banner_mobile.jpg);
+      background-image: url(../images/img_adaptada.png);
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
 
       .container
       {
+         p
+         {
+            font-size: 20px;
+         }
+
          #exibeNaTela
          {
             font-size: 40px;
-            color: rgb(251, 232, 128);
          }
 
 
          img
          {
-            margin-left: 18%;
+            height: 100px;
+            margin-left: 27%;
          }
       }
     }

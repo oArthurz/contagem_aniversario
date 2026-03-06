@@ -32,20 +32,24 @@
 
 @media (width <= 640px) {
   .hero {
-    background-image: url("../banner_mobile.f7b21a54.jpg");
+    background-image: url("../img_adaptada.8cd7b972.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     position: relative;
   }
 
+  .hero .container p {
+    font-size: 20px;
+  }
+
   .hero .container #exibeNaTela {
-    color: #fbe880;
     font-size: 40px;
   }
 
   .hero .container img {
-    margin-left: 18%;
+    height: 100px;
+    margin-left: 27%;
   }
 }
 
