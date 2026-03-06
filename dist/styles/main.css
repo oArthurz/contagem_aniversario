@@ -40,12 +40,12 @@
   }
 
   .hero .container #exibeNaTela {
-    font-size: 20px;
+    color: #fbe880;
+    font-size: 40px;
   }
 
   .hero .container img {
-    text-align: center;
-    margin: 0;
+    margin-left: 18%;
   }
 }
 
@@ -75,13 +75,22 @@
 }
 
 @media (width <= 645px) {
+  .infos-bar {
+    padding: 50px 0;
+  }
+
   .infos-bar__infos {
-    line-height: 20px;
+    width: 100%;
     display: block;
   }
 
   .infos-bar__infos__item b {
-    font-size: 12px;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .infos-bar__infos__item h4 {
+    font-size: 14px;
   }
 }
 
@@ -134,19 +143,28 @@
 
   .event .containerEvent img {
     border-radius: 7px;
-    height: 280px;
-    padding: 0;
+    height: 450px;
+    margin-left: 4%;
   }
 
   .event .containerEvent .event-details #mobileNone {
     display: none;
   }
 
+  .event .containerEvent .event-details h2 {
+    font-size: 28px;
+  }
+
   .event .containerEvent .event-details p {
     color: #f0f8ff;
-    max-width: 80%;
+    max-width: 100%;
     margin-bottom: 15px;
     font-size: 20px;
+  }
+
+  .event .containerEvent .image2 {
+    height: 350px;
+    margin-left: .1%;
   }
 }
 

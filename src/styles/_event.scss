@@ -66,9 +66,9 @@
 
             img
             {
-                height: 280px;
+                height: 450px;
                 border-radius: 7px;
-                padding: 0;
+                margin-left: 4%;
             }
 
             .event-details
@@ -78,13 +78,24 @@
                     display: none;
                 }
 
+                h2
+                {
+                    font-size: 28px;
+                }
+
                 p
                 {
-                    max-width: 80%;
+                    max-width: 100%;
                     margin-bottom: 15px;
                     font-size: 20px;
                     color: aliceblue;
                 }
+            }
+
+            .image2
+            {
+                margin-left: 0.1%;
+                height: 350px;
             }
         }
     }

@@ -29,16 +29,25 @@
 
     @media (max-width: 645px)
     {
+        padding: 0;
+        padding-bottom: 50px;
+        padding-top: 50px;
+
         &__infos
         {
             display: block;
-            line-height: 20px;
-
+            width: 100%;
             &__item
             {
                 b
                 {
-                    font-size: 12px;
+                    font-size: 20px;
+                    margin-top: 15px;
+                }
+
+                h4
+                {
+                    font-size: 14px;
                 }
             }
         }
