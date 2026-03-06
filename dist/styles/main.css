@@ -32,17 +32,20 @@
 
 @media (width <= 640px) {
   .hero {
-    padding: 40px;
+    background-image: url("../banner_mobile.f7b21a54.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative;
   }
 
-  .hero__logo {
-    height: 40px;
+  .hero .container #exibeNaTela {
+    font-size: 20px;
   }
 
-  .hero__text {
-    margin: 24px 0;
-    font-size: 22px;
-    line-height: 24px;
+  .hero .container img {
+    text-align: center;
+    margin: 0;
   }
 }
 
@@ -71,12 +74,27 @@
   display: block;
 }
 
+@media (width <= 645px) {
+  .infos-bar__infos {
+    line-height: 20px;
+    display: block;
+  }
+
+  .infos-bar__infos__item b {
+    font-size: 12px;
+  }
+}
+
 .event {
   padding: 80px 0;
 }
 
 .event--image-right {
   background-image: linear-gradient(oklch(89.9% .061 343.231), oklch(71.8% .202 349.761));
+}
+
+.event--image-left {
+  background-image: linear-gradient(oklch(71.8% .202 349.761), oklch(89.9% .061 343.231));
 }
 
 .event__details__title {
@@ -91,7 +109,13 @@
 
 .event .containerEvent {
   align-items: center;
+  gap: 90px;
   display: flex;
+}
+
+.event .containerEvent img {
+  border-radius: 7px;
+  height: 450px;
 }
 
 .event--image-left .containerEvent {
@@ -99,17 +123,30 @@
 }
 
 @media (width <= 640px) {
-  .event .container {
+  .event .event {
+    padding: 0;
+  }
+
+  .event .containerEvent {
+    margin-left: 25px;
     display: block;
   }
 
-  .event__image {
-    width: 100%;
+  .event .containerEvent img {
+    border-radius: 7px;
+    height: 280px;
+    padding: 0;
   }
 
-  .event__details {
-    margin-bottom: 16px;
-    margin-right: 0;
+  .event .containerEvent .event-details #mobileNone {
+    display: none;
+  }
+
+  .event .containerEvent .event-details p {
+    color: #f0f8ff;
+    max-width: 80%;
+    margin-bottom: 15px;
+    font-size: 20px;
   }
 }
 

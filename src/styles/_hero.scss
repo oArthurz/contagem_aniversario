@@ -36,18 +36,25 @@
 
    @media (max-width: 640px)
    {
-      padding: 40px;
+      padding: 0;
+      background-image: url(../images/banner_mobile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
 
-      &__logo
+      .container
       {
-         height: 40px;
-      }
+         #exibeNaTela
+         {
+            font-size: 20px;
+         }
 
-      &__text
-      {
-         font-size: 22px;
-         line-height: 24px;
-         margin: 24px 0;
+
+         img
+         {
+            margin: 0;
+            text-align: center;
+         }
       }
     }
 }

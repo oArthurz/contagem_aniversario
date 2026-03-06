@@ -26,4 +26,21 @@
         }
     }
 
+
+    @media (max-width: 645px)
+    {
+        &__infos
+        {
+            display: block;
+            line-height: 20px;
+
+            &__item
+            {
+                b
+                {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 }
